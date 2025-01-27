@@ -13,9 +13,9 @@ st.sidebar.info(markdown)
 logo = "https://i.imgur.com/UbOXYAU.png"
 st.sidebar.image(logo)
 
-st.title("Heatmap")
+st.title("Heatmap(熱點地圖)")
 
-with st.expander("See source code"):
+with st.expander("See source code(檢視原始碼)"):
     with st.echo():
         filepath = "https://raw.githubusercontent.com/giswqs/leafmap/master/examples/data/us_cities.csv"
         m = leafmap.Map(center=[40, -100], zoom=4)

@@ -12,7 +12,7 @@ logo = "https://i.imgur.com/UbOXYAU.png"
 st.sidebar.image(logo)
 
 
-st.title("Interactive Map")
+st.title("Interactive Map 與地圖互動")
 
 col1, col2 = st.columns([4, 1])
 options = list(leafmap.basemaps.keys())
@@ -20,7 +20,7 @@ index = options.index("OpenTopoMap")
 
 with col2:
 
-    basemap = st.selectbox("Select a basemap:", options, index)
+    basemap = st.selectbox("Select a basemap(選擇一個底圖):", options, index)
 
 
 with col1:

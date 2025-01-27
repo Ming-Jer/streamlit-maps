@@ -13,9 +13,9 @@ st.sidebar.info(markdown)
 logo = "https://i.imgur.com/UbOXYAU.png"
 st.sidebar.image(logo)
 
-st.title("Marker Cluster")
+st.title("Marker Cluster以叢集方式顯示點位")
 
-with st.expander("See source code"):
+with st.expander("See source code(檢視原始碼)"):
     with st.echo():
 
         m = leafmap.Map(center=[40, -100], zoom=4)

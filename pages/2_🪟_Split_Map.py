@@ -13,7 +13,7 @@ st.sidebar.info(markdown)
 logo = "https://i.imgur.com/UbOXYAU.png"
 st.sidebar.image(logo)
 
-st.title("Split-panel Map")
+st.title("Split-panel Map 拉簾式地圖(比較同一區域不同形式或不同時間的地圖)")
 
 with st.expander("See source code"):
     with st.echo():
