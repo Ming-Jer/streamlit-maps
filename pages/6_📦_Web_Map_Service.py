@@ -27,7 +27,9 @@ st.markdown(
     """
 This app is a demonstration of loading Web Map Service (WMS) layers. Simply enter the URL of the WMS service
 in the text box below and press Enter to retrieve the layers. Go to https://apps.nationalmap.gov/services to find
-some WMS URLs if needed.
+some WMS URLs if needed. (Note: Fix the error in the get_wms_layers function in this example)
+這個應用程式展示了如何載入網路地圖服務（WMS）圖層。只需在下方文字框輸入WMS服務的網址並按下Enter鍵即可檢索圖層。
+如需WMS網址，可前往 https://apps.nationalmap.gov/services 查詢。 (附註：修正此範例get_wms_layers函數的錯誤)
 """
 )
 
